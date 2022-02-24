@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 14:09:39 by minsunki          #+#    #+#             */
-/*   Updated: 2022/02/25 01:40:13 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/02/25 02:30:50 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 static void	print_usage(char *farg)
 {
-	printf("Usage: %s [.ber file]\n", farg);
+	printf("Error\nUsage: %s [.ber file]\n", farg);
 	exit(1);
 }
 
