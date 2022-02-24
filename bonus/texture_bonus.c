@@ -22,7 +22,6 @@ static void	_load(t_meta *m, t_img *tex, char *file)
 	tex->addr = mlx_get_data_addr(tex->obj, &tex->bpp, &tex->llen, &tex->endi);
 	if (!tex->addr)
 		perror_exit("mlx_get_data_addr failed @texture_load");
-	tex->bypp = tex->bpp >> 3;
 }
 
 void	texture_init(t_meta *m)

@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 14:10:12 by minssc            #+#    #+#             */
-/*   Updated: 2022/02/25 01:41:23 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/02/25 02:27:05 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,7 +98,6 @@ typedef struct s_img
 	void		*obj;
 	char		*addr;
 	int			bpp;
-	int			bypp;
 	int			llen;
 	int			endi;
 }				t_img;
